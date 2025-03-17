@@ -42,7 +42,7 @@ var builder = WebApplication.CreateBuilder(args);
 //     });
 // });
 
-// Serilog
+// Serilog with opentelemetry
 
 Log.Logger = new LoggerConfiguration()
     .Enrich.FromLogContext()
